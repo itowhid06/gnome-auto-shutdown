@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    cat <<'EOF'
+
+Auto Shutdown is installed for all users.
+To start using it:
+  1. Log out and log back in (GNOME on Wayland only finds new extensions at login).
+  2. Enable it in the Extensions app, or run:
+       gnome-extensions enable auto-shutdown@itowhid06.github.io
+
+EOF
+fi
+
+exit 0

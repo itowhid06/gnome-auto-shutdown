@@ -1,0 +1,20 @@
+Package: @PACKAGE@
+Version: @VERSION@
+Architecture: all
+Maintainer: @MAINTAINER@
+Installed-Size: @INSTALLED_SIZE@
+Depends: gnome-shell (>= 48), systemd
+Recommends: gnome-shell-extension-prefs
+Section: gnome
+Priority: optional
+Homepage: https://github.com/itowhid06/gnome-auto-shutdown
+Description: GNOME Shell extension to shut down the computer on a timer
+ Auto Shutdown adds a menu to the GNOME top bar for scheduling an automatic
+ power off: after 10, 30 or 60 minutes, after any custom number of hours and
+ minutes, or at a specific time of day. It shows a countdown in the top bar
+ and warns with a notification before the deadline, with options to postpone
+ or cancel.
+ .
+ The timer is held by systemd-logind, so it keeps running when the screen is
+ locked or GNOME Shell restarts, and it is the same schedule used by
+ "shutdown +N".

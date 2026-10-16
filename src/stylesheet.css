@@ -1,0 +1,77 @@
+/* Top bar */
+.auto-shutdown-countdown {
+  padding-left: 4px;
+  font-feature-settings: "tnum";
+}
+
+/* Menu */
+.auto-shutdown-status-title {
+  font-weight: bold;
+}
+
+.auto-shutdown-status-subtitle {
+  font-size: 0.9em;
+  padding-top: 2px;
+  font-feature-settings: "tnum";
+}
+
+/* Custom time dialog */
+.auto-shutdown-dialog .modal-dialog-content-box {
+  spacing: 18px;
+}
+
+.auto-shutdown-mode-box {
+  spacing: 6px;
+}
+
+.auto-shutdown-mode-button {
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-weight: bold;
+  background-color: rgba(127, 127, 127, 0.15);
+}
+
+.auto-shutdown-mode-button:hover,
+.auto-shutdown-mode-button:focus {
+  background-color: rgba(127, 127, 127, 0.28);
+}
+
+.auto-shutdown-mode-button:checked {
+  background-color: -st-accent-color;
+  color: -st-accent-fg-color;
+}
+
+.auto-shutdown-fields {
+  spacing: 12px;
+}
+
+.auto-shutdown-field {
+  spacing: 6px;
+}
+
+.auto-shutdown-field-title {
+  font-size: 0.9em;
+}
+
+.auto-shutdown-field-row {
+  spacing: 6px;
+}
+
+.auto-shutdown-entry {
+  width: 72px;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-feature-settings: "tnum";
+  text-align: center;
+}
+
+.auto-shutdown-separator {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.auto-shutdown-summary {
+  text-align: center;
+  font-feature-settings: "tnum";
+}

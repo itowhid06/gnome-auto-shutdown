@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="auto-shutdown">
+  <schema id="org.gnome.shell.extensions.auto-shutdown" path="/org/gnome/shell/extensions/auto-shutdown/">
+    <key name="presets" type="ai">
+      <default>[10, 30, 60]</default>
+      <summary>Quick options</summary>
+      <description>Delays, in minutes, offered directly in the top bar menu.</description>
+    </key>
+    <key name="show-countdown" type="b">
+      <default>true</default>
+      <summary>Show countdown in the top bar</summary>
+      <description>Display the remaining time next to the icon while a shutdown is scheduled.</description>
+    </key>
+    <key name="warnings-enabled" type="b">
+      <default>true</default>
+      <summary>Show warning notifications</summary>
+      <description>Notify before the computer shuts down, with options to postpone or cancel.</description>
+    </key>
+    <key name="warning-minutes" type="ai">
+      <default>[5, 1]</default>
+      <summary>Warning times</summary>
+      <description>Minutes before the shutdown at which a warning notification is shown.</description>
+    </key>
+    <key name="postpone-minutes" type="i">
+      <range min="1" max="1440"/>
+      <default>10</default>
+      <summary>Postpone step</summary>
+      <description>Minutes added by the “Postpone” action.</description>
+    </key>
+    <key name="last-custom-minutes" type="i">
+      <range min="1" max="5999"/>
+      <default>90</default>
+      <summary>Last custom delay</summary>
+      <description>The delay last chosen in the custom time dialog, used as its starting value.</description>
+    </key>
+    <key name="dry-run" type="b">
+      <default>false</default>
+      <summary>Dry run (testing)</summary>
+      <description>Schedule a logind “dry-poweroff” instead of a real power off. Everything behaves normally, but the computer does not turn off when the timer ends.</description>
+    </key>
+  </schema>
+</schemalist>

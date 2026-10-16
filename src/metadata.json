@@ -1,0 +1,15 @@
+{
+  "uuid": "auto-shutdown@itowhid06.github.io",
+  "name": "Auto Shutdown",
+  "description": "Schedule an automatic shutdown from the top bar: 10, 30 or 60 minutes, any custom delay, or a specific time of day. The timer is kept by systemd-logind, so it keeps running when the screen is locked or GNOME Shell restarts.",
+  "shell-version": [
+    "48",
+    "49",
+    "50",
+    "51"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.auto-shutdown",
+  "gettext-domain": "auto-shutdown",
+  "version-name": "1.0.0",
+  "url": "https://github.com/itowhid06/gnome-auto-shutdown"
+}

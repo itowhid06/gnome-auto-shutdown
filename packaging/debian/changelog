@@ -1,0 +1,7 @@
+gnome-shell-extension-auto-shutdown (1.0.0) unstable; urgency=medium
+
+  * Initial release: top bar menu with 10/30/60 minute presets, custom delay
+    or time-of-day dialog, panel countdown, warning notifications with
+    postpone/cancel, and preferences.
+
+ -- Towhidul I Chowdhury <itowhid06@gmail.com>  Fri, 16 Oct 2026 12:00:00 +0000
